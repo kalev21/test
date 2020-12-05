@@ -1,0 +1,148 @@
+* p, h2, h4 {
+    margin: 0;
+}
+@font-face {
+    font-family: "Muller Bold";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Muller Bold"),
+        url("/fonts/Muller/MullerBold.woff");
+}
+@font-face {
+    font-family: "Muller Regular";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Muller Regular"),
+        url("/fonts/Muller/MullerRegular.woff");
+}
+@font-face {
+    font-family: "Muller Medium";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Muller Medium"),
+        url("/fonts/Muller/MullerMedium.woff");
+}
+body {
+    font-family: "Muller Bold", "Muller Regular", "Muller Medium", sans-serif;
+}
+/* Блок Реклама Начало */
+.title-name {
+    color: #6c1c02;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    font-family: "Muller Bold";
+}
+.title-description {
+    color: #000000;
+    font-family: "Muller Regular";
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+.header-title {
+    margin-top: 101px;
+}
+/* Блок Реклама Конец */
+/* Блок Двери 1 ряд Начало */
+.door-block {
+    margin-top: 54px;
+    margin-bottom: 50px;
+}
+.door-name {
+    color: #393939;
+    font-family: "Muller Regular";
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 29px;
+}
+.door-name-o {
+    color:  #393939;
+    font-weight: "Muller Regular";
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 31px;
+}
+.door-name-sub {
+    color: #7f7f7f;
+    font-size: 14px;
+    line-height: 0.8px;
+    text-align: center;
+}
+.door-price {
+    color: #393939;
+    font-family: "Muller Medium";
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 32px;
+}
+.door-price-o {
+    color: #393939;
+    font-family: "Muller Medium";
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 15px;
+}
+.blue-door, .blum-door {
+    text-align: center;
+    padding-top: 44px;
+}
+.unblock {
+    box-shadow: 0 9px 21px rgba(0, 0, 0, 0.1);
+    width: 271px;
+    height: 502px;
+}
+.red-door {
+    padding-top: 49px;
+    text-align: center;
+}
+/* Блок Двери 1 ряд Конец */
+/* Блок Двери 2 ряд Начало */
+.free-door {
+    text-align: center;
+    padding-top: 49px;
+}
+.mezo-door {
+    text-align: center;
+    padding-top: 42px;
+}
+.pine-door {
+    text-align: center;
+    padding-top: 40px;
+}
+.door-block-two {
+    margin-bottom: 48px;
+}
+/* Блок Двери 2 ряд конец */
+/* Кнопка */
+.button {
+    text-align: center;
+    box-shadow: 0 9px 21px rgba(0, 0, 0, 0.15);
+    background-color: #e70000;
+    color: #ffffff;
+    font-family: "Muller Bold";
+    font-size: 18px;
+    font-weight: 400;
+    border: 2px solid #e70000;
+    padding: 28px 47px;
+    outline: 0 !important;
+    width: 530px;
+}
+/* Эффекты Стили */
+.button:focus  {
+    background-color: #e1e1e1;
+    border: solid #e1e1e1;
+}
+.button:hover {
+    background-color: #e1e1e1;
+    border: solid #e1e1e1;
+}
+.unblock:hover {
+    background-color: #e1e1e1;
+    border: solid #e1e1e1;
+    cursor: pointer;
+}
